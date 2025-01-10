@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: auto 0;
+}
+    /* fonts */
+    .open-sans-normal {
+        font-family: "Open Sans", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" <width>;
+      }
+
+
+    /* CommonColor */
+    .orange{
+        color: #FD6E0A;
+    }
+    .dark-1{
+        color: #181818;
+    }
+    .dark-2{
+        color: #474747;
+    }
+    .dark-3{
+        color: #474747;
+    }
+
+
+
+    /* common style */
+    .section-title{
+        font-size: 35px;
+        font-weight: bold;
+        color: #181818;
+    }
+    .section-description{
+        font-size: 18px;
+        font-weight: normal;
+        padding-bottom: 30px;
+        color: #757575;
+    }
+    
+
+
+
+    /* Extra */
+    .margin10px{
+        margin: 10px;
+    }
+
+
+
+
+
+/* Navigation Bar Start */
+header{
+    margin-top: 2vh;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-position: right bottom, top left;
+    background-repeat: no-repeat;
+}
+nav{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav h3{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav li{
+    margin-right: 51px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn-universal{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 18px 36px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+/* Navigation Bar End */
+
+
+
+/* Banner Section Start */
+.banner{
+    margin-top: 10vh;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.banner-content{
+    margin-left: 10vh;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+/* Banner Section End */
+
+
+
+/* About Section Start */
+.about-description{
+    padding: 30px 0;
+}
+
+.item-title{
+    font-size: 20px;
+}
