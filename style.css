@@ -173,3 +173,38 @@ nav li a{
     justify-content: center;
     align-items: center;
 }
+/* Skill Section Start */
+
+
+
+
+
+
+/* Skill Section Start */
+.skill-section{
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 150vh;
+}
+.skill-section h1{
+    text-align: center;
+    padding-top: 25vh;
+}
+.skill-section p{
+    text-align: center;
+}
+.skill-section p{
+    margin: 30px 0;
+}
+
+.skill-item-container{
+    display: flex;
+}
+.skill-item p{
+    text-align: left;
+}
+.skill-item{
+    box-shadow: 5px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+}
