@@ -65,7 +65,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
 }
 nav h3{
     font-weight: 800;
