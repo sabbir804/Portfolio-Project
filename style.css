@@ -216,6 +216,7 @@ nav li a{
 /* Experience Section Start */
 .experience-section{
     margin: 0 auto;
+    gap: 20px;
     padding-bottom: 30px;
     max-width: 150vh;
 }
@@ -224,7 +225,6 @@ nav li a{
     padding-bottom: 50px;
 }
 .experience-right-colm h2, .experience-left-colm h2{
-    
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: bold;
@@ -246,9 +246,46 @@ nav li a{
 
 .experience-both-colm{
     display: flex;
+    gap: 40px;
 }
 
-.marginauto{
+
+
+
+/* Footer Section Start */
+footer{
+    background-color: #FFF8F3;
+}
+.footer-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+footer input[type="text"]{
     display: block;
-    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+    height: 5%;
+}
+footer input[type="email"]{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 5%;
+}
+footer textarea{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 5%;
+}
+.footer-section{
+    argin: 0 auto;
+    height: 100vh;
+    max-width: 150vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer-section >div{
+    padding: 20vh 0 0 20vh;
 }
