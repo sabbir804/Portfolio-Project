@@ -53,6 +53,9 @@
     .text-align{
         text-align: center;
     }
+    .marginauto{
+        margin: 0 auto;
+    }
 
 
 
@@ -278,7 +281,7 @@ footer textarea{
     height: 5%;
 }
 .footer-section{
-    argin: 0 auto;
+    margin: 0 auto;
     height: 100vh;
     max-width: 150vh;
     display: flex;
