@@ -333,9 +333,10 @@ footer textarea{
     }
     .banner-content{
         margin-left: 40px;
+        
     }
     .banner{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .banner img{
         width: 100%;
